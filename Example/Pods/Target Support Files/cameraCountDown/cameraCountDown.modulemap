@@ -1,0 +1,6 @@
+framework module cameraCountDown {
+  umbrella header "cameraCountDown-umbrella.h"
+
+  export *
+  module * { export * }
+}

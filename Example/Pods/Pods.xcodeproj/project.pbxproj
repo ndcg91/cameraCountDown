@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00C847E6482874DDBDA92BE3 /* Pods_Pods_cameraCountDown_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B15B7710A59B65312FEAAC06 /* Pods_Pods_cameraCountDown_Tests.framework */; };
+		18AB761445A2E5D77C3835B6DC90B93B /* cameraCountDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C4C83C159B39971613AFB2737D17624 /* cameraCountDown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DF0D82626C2C5615EBDF01C /* Pods_cameraCountDown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4089AD4CD6EFA1F57B6EC5DE /* Pods_cameraCountDown.framework */; };
+		4DCC955EC46B1CA8B4D83C7E935877EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
+		6CD9834C0F904038D7958F021AD7FA5A /* Pods-cameraCountDown_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F173F5DD485B8B97CB0CE2BC0CBC42 /* Pods-cameraCountDown_Tests-dummy.m */; };
+		76AAFFE61DE215A6006AD607 /* cameraCountDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AAFFE51DE215A6006AD607 /* cameraCountDown.swift */; };
+		8BC0E223116908D243D681AD52ABD63C /* Pods-cameraCountDown_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DCF051D4A2ACE303075D32C71E5E489C /* Pods-cameraCountDown_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		912BFC2AD79D70B1916D22FC71701FB9 /* cameraCountDown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D8641CDF0126044BAC24181E4A42DC /* cameraCountDown-dummy.m */; };
+		FC95984C91B28DFBDCBE4565521ECDDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF928604C5976DACFB9D0793FA0BECC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7340241F0E8C266DA7882AD36C6CA702;
+			remoteInfo = cameraCountDown;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C4C83C159B39971613AFB2737D17624 /* cameraCountDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "cameraCountDown-umbrella.h"; sourceTree = "<group>"; };
+		1CB3F9126CDF34C434C65F2EDF437732 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21E17F6EC0C565EA5CFC5A781A72D9FF /* Pods-cameraCountDown_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cameraCountDown_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3A01716CD9570DAF8542FBA5C5C7FF59 /* Pods-cameraCountDown_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-cameraCountDown_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3D86023ECAF2E78E7D20DAC3621220DE /* cameraCountDown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = cameraCountDown.modulemap; sourceTree = "<group>"; };
+		4089AD4CD6EFA1F57B6EC5DE /* Pods_cameraCountDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cameraCountDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4975ACD6CA3AB236ADA199B833B7C8C0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D6FE3A1E49266C415D6A7CB55D47445 /* Pods-cameraCountDown_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cameraCountDown_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4E04E41DC31E62DB0864C12B88750712 /* Pods-cameraCountDown_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cameraCountDown_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		704249E84BE29A02260248EA188BC7D6 /* cameraCountDown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "cameraCountDown-prefix.pch"; sourceTree = "<group>"; };
+		74E31C9F58758E06BD9F38129BC9FEEC /* Pods-cameraCountDown_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-cameraCountDown_Tests.modulemap"; sourceTree = "<group>"; };
+		76AAFFE51DE215A6006AD607 /* cameraCountDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cameraCountDown.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AA0E48CA2C82B47CBDC740BFB6E5E527 /* cameraCountDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = cameraCountDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFF9059A5A52533221B180185248BEBB /* cameraCountDown.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = cameraCountDown.xcconfig; sourceTree = "<group>"; };
+		B15B7710A59B65312FEAAC06 /* Pods_Pods_cameraCountDown_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pods_cameraCountDown_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0F173F5DD485B8B97CB0CE2BC0CBC42 /* Pods-cameraCountDown_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-cameraCountDown_Tests-dummy.m"; sourceTree = "<group>"; };
+		C54EE6813EACC2BE8A06438B41E36597 /* Pods-cameraCountDown_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-cameraCountDown_Tests-resources.sh"; sourceTree = "<group>"; };
+		C5D8641CDF0126044BAC24181E4A42DC /* cameraCountDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "cameraCountDown-dummy.m"; sourceTree = "<group>"; };
+		CCB3FD5CE6449CB29A57C00B848854E4 /* Pods-cameraCountDown_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-cameraCountDown_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		DCF051D4A2ACE303075D32C71E5E489C /* Pods-cameraCountDown_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-cameraCountDown_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F688320A8B066416F2634BA28680F020 /* Pods_cameraCountDown_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cameraCountDown_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAB58A6136F2E1A54FFBAF08EF094EFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DCC955EC46B1CA8B4D83C7E935877EC /* Foundation.framework in Frameworks */,
+				00C847E6482874DDBDA92BE3 /* Pods_Pods_cameraCountDown_Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB4FA98AAFB32AA1E27E20696DF9E3E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC95984C91B28DFBDCBE4565521ECDDE /* Foundation.framework in Frameworks */,
+				3DF0D82626C2C5615EBDF01C /* Pods_cameraCountDown.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		112C7921E3A497328D11F4930CBBC9CA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		1D4869BDB4773CFFBF8CA6C4DBD4B4E6 /* Pods-cameraCountDown_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1CB3F9126CDF34C434C65F2EDF437732 /* Info.plist */,
+				74E31C9F58758E06BD9F38129BC9FEEC /* Pods-cameraCountDown_Tests.modulemap */,
+				3A01716CD9570DAF8542FBA5C5C7FF59 /* Pods-cameraCountDown_Tests-acknowledgements.markdown */,
+				4D6FE3A1E49266C415D6A7CB55D47445 /* Pods-cameraCountDown_Tests-acknowledgements.plist */,
+				C0F173F5DD485B8B97CB0CE2BC0CBC42 /* Pods-cameraCountDown_Tests-dummy.m */,
+				CCB3FD5CE6449CB29A57C00B848854E4 /* Pods-cameraCountDown_Tests-frameworks.sh */,
+				C54EE6813EACC2BE8A06438B41E36597 /* Pods-cameraCountDown_Tests-resources.sh */,
+				DCF051D4A2ACE303075D32C71E5E489C /* Pods-cameraCountDown_Tests-umbrella.h */,
+				4E04E41DC31E62DB0864C12B88750712 /* Pods-cameraCountDown_Tests.debug.xcconfig */,
+				21E17F6EC0C565EA5CFC5A781A72D9FF /* Pods-cameraCountDown_Tests.release.xcconfig */,
+			);
+			name = "Pods-cameraCountDown_Tests";
+			path = "Target Support Files/Pods-cameraCountDown_Tests";
+			sourceTree = "<group>";
+		};
+		2A948E31C4F9121229CF8AE198E7C5B6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E877404DB2E04B27F5BA3A276A3FA89B /* cameraCountDown */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3A83A7AF55969E7A93F0208B57382490 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				76AAFFE51DE215A6006AD607 /* cameraCountDown.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		467A6F16C098693C0CEF958DA9299710 /* cameraCountDown */ = {
+			isa = PBXGroup;
+			children = (
+				3A83A7AF55969E7A93F0208B57382490 /* Classes */,
+			);
+			path = cameraCountDown;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				2A948E31C4F9121229CF8AE198E7C5B6 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C5AA8805909C3E57ED55BF0E0BCE3E9D /* Products */,
+				CA3A026CEAEDE1D4CBD4E7C9A8BAF8ED /* Targets Support Files */,
+				E018F944D3EDEA5B7368B409 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		89BBA0ECA09444E4B2BE9F30ACAD6E4C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D86023ECAF2E78E7D20DAC3621220DE /* cameraCountDown.modulemap */,
+				AFF9059A5A52533221B180185248BEBB /* cameraCountDown.xcconfig */,
+				C5D8641CDF0126044BAC24181E4A42DC /* cameraCountDown-dummy.m */,
+				704249E84BE29A02260248EA188BC7D6 /* cameraCountDown-prefix.pch */,
+				0C4C83C159B39971613AFB2737D17624 /* cameraCountDown-umbrella.h */,
+				4975ACD6CA3AB236ADA199B833B7C8C0 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/cameraCountDown";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				112C7921E3A497328D11F4930CBBC9CA /* iOS */,
+				B15B7710A59B65312FEAAC06 /* Pods_Pods_cameraCountDown_Tests.framework */,
+				4089AD4CD6EFA1F57B6EC5DE /* Pods_cameraCountDown.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5AA8805909C3E57ED55BF0E0BCE3E9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA0E48CA2C82B47CBDC740BFB6E5E527 /* cameraCountDown.framework */,
+				F688320A8B066416F2634BA28680F020 /* Pods_cameraCountDown_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA3A026CEAEDE1D4CBD4E7C9A8BAF8ED /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D4869BDB4773CFFBF8CA6C4DBD4B4E6 /* Pods-cameraCountDown_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E018F944D3EDEA5B7368B409 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E877404DB2E04B27F5BA3A276A3FA89B /* cameraCountDown */ = {
+			isa = PBXGroup;
+			children = (
+				467A6F16C098693C0CEF958DA9299710 /* cameraCountDown */,
+				89BBA0ECA09444E4B2BE9F30ACAD6E4C /* Support Files */,
+			);
+			name = cameraCountDown;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		67A414C4B42EA7D6C045076338022667 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18AB761445A2E5D77C3835B6DC90B93B /* cameraCountDown-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0082795665803278A1E8F31387BE32F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC0E223116908D243D681AD52ABD63C /* Pods-cameraCountDown_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3EA6E5954A0037CD1ABC3723B649887D /* Pods-cameraCountDown_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DF0AC3E383277828F0946714ED6595C /* Build configuration list for PBXNativeTarget "Pods-cameraCountDown_Tests" */;
+			buildPhases = (
+				8CC1C68DB8AEA72320D46756 /* 📦 Check Pods Manifest.lock */,
+				C4B6E665E8B6AE0382723AB9440CC890 /* Sources */,
+				DAB58A6136F2E1A54FFBAF08EF094EFC /* Frameworks */,
+				C0082795665803278A1E8F31387BE32F /* Headers */,
+				1C30F721A9FB175F20D22AF5 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACE30F12B247BAD8D2EAAB0C9FE6AF01 /* PBXTargetDependency */,
+			);
+			name = "Pods-cameraCountDown_Tests";
+			productName = "Pods-cameraCountDown_Tests";
+			productReference = F688320A8B066416F2634BA28680F020 /* Pods_cameraCountDown_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7340241F0E8C266DA7882AD36C6CA702 /* cameraCountDown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65E39D6E077B5C016302C8F67C0AB723 /* Build configuration list for PBXNativeTarget "cameraCountDown" */;
+			buildPhases = (
+				ACE29C69E5936A03975DD2B0 /* 📦 Check Pods Manifest.lock */,
+				5EDBA9F0CA70A4FD6760C84A922D4698 /* Sources */,
+				EB4FA98AAFB32AA1E27E20696DF9E3E5 /* Frameworks */,
+				67A414C4B42EA7D6C045076338022667 /* Headers */,
+				CBED7C451FCE00D8DF6053C8 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cameraCountDown;
+			productName = cameraCountDown;
+			productReference = AA0E48CA2C82B47CBDC740BFB6E5E527 /* cameraCountDown.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "_Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C5AA8805909C3E57ED55BF0E0BCE3E9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7340241F0E8C266DA7882AD36C6CA702 /* cameraCountDown */,
+				3EA6E5954A0037CD1ABC3723B649887D /* Pods-cameraCountDown_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C30F721A9FB175F20D22AF5 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pods-cameraCountDown_Tests/Pods-Pods-cameraCountDown_Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CC1C68DB8AEA72320D46756 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ACE29C69E5936A03975DD2B0 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CBED7C451FCE00D8DF6053C8 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cameraCountDown/Pods-cameraCountDown-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EDBA9F0CA70A4FD6760C84A922D4698 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76AAFFE61DE215A6006AD607 /* cameraCountDown.swift in Sources */,
+				912BFC2AD79D70B1916D22FC71701FB9 /* cameraCountDown-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4B6E665E8B6AE0382723AB9440CC890 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CD9834C0F904038D7958F021AD7FA5A /* Pods-cameraCountDown_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACE30F12B247BAD8D2EAAB0C9FE6AF01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = cameraCountDown;
+			target = 7340241F0E8C266DA7882AD36C6CA702 /* cameraCountDown */;
+			targetProxy = AF928604C5976DACFB9D0793FA0BECC7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02740B9E8E7316E5EF753782BA705A19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFF9059A5A52533221B180185248BEBB /* cameraCountDown.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/cameraCountDown/cameraCountDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/cameraCountDown/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/cameraCountDown/cameraCountDown.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = cameraCountDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1966D473A41936FA4DAA215A22BA0F46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21E17F6EC0C565EA5CFC5A781A72D9FF /* Pods-cameraCountDown_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-cameraCountDown_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-cameraCountDown_Tests/Pods-cameraCountDown_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_cameraCountDown_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		372FF5048FF42C3A7A18B70A30D785C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5566C1A70E9D7A7326003040C0EDE822 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFF9059A5A52533221B180185248BEBB /* cameraCountDown.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/cameraCountDown/cameraCountDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/cameraCountDown/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/cameraCountDown/cameraCountDown.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = cameraCountDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		70F0378D63DE3D2DCC739550669BD46A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8FE300A709C1ED07C61266EAE4DAA496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E04E41DC31E62DB0864C12B88750712 /* Pods-cameraCountDown_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-cameraCountDown_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-cameraCountDown_Tests/Pods-cameraCountDown_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_cameraCountDown_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "_Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70F0378D63DE3D2DCC739550669BD46A /* Debug */,
+				372FF5048FF42C3A7A18B70A30D785C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65E39D6E077B5C016302C8F67C0AB723 /* Build configuration list for PBXNativeTarget "cameraCountDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5566C1A70E9D7A7326003040C0EDE822 /* Debug */,
+				02740B9E8E7316E5EF753782BA705A19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DF0AC3E383277828F0946714ED6595C /* Build configuration list for PBXNativeTarget "Pods-cameraCountDown_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FE300A709C1ED07C61266EAE4DAA496 /* Debug */,
+				1966D473A41936FA4DAA215A22BA0F46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

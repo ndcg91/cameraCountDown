@@ -1,0 +1,6 @@
+framework module Pods_cameraCountDown {
+  umbrella header "Pods-cameraCountDown-umbrella.h"
+
+  export *
+  module * { export * }
+}

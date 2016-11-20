@@ -1,0 +1,22 @@
+{
+  "name": "cameraCountDown",
+  "version": "0.1.0",
+  "summary": "A short description of cameraCountDown.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/cameraCountDown",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Noel David Carcases Gomez": "ndcg9105@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/cameraCountDown.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "cameraCountDown/Classes/**/*"
+}

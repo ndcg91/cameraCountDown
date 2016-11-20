@@ -1,0 +1,16 @@
+PODS:
+  - cameraCountDown (0.1.0)
+
+DEPENDENCIES:
+  - cameraCountDown (from `../`)
+
+EXTERNAL SOURCES:
+  cameraCountDown:
+    :path: ../
+
+SPEC CHECKSUMS:
+  cameraCountDown: e4ae56507fe75ec4e6b13b302f68dee585204781
+
+PODFILE CHECKSUM: d5b84d216a9cb22e4e5ea0a070780ca26cec018a
+
+COCOAPODS: 1.0.0.beta.8
