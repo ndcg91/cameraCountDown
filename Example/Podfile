@@ -1,0 +1,6 @@
+use_frameworks!
+target 'cameraCountDown_Tests' do
+  pod 'cameraCountDown', :path => '../'
+  
+  
+end
