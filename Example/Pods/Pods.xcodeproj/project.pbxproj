@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00C847E6482874DDBDA92BE3 /* Pods_Pods_cameraCountDown_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B15B7710A59B65312FEAAC06 /* Pods_Pods_cameraCountDown_Tests.framework */; };
 		18AB761445A2E5D77C3835B6DC90B93B /* cameraCountDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C4C83C159B39971613AFB2737D17624 /* cameraCountDown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3DF0D82626C2C5615EBDF01C /* Pods_cameraCountDown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4089AD4CD6EFA1F57B6EC5DE /* Pods_cameraCountDown.framework */; };
 		4DCC955EC46B1CA8B4D83C7E935877EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
@@ -30,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		0C4C83C159B39971613AFB2737D17624 /* cameraCountDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "cameraCountDown-umbrella.h"; sourceTree = "<group>"; };
+		1943E0DD6C57CF7CFC385355 /* Pods-cameraCountDown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cameraCountDown.release.xcconfig"; path = "Pods/Target Support Files/Pods-cameraCountDown/Pods-cameraCountDown.release.xcconfig"; sourceTree = "<group>"; };
 		1CB3F9126CDF34C434C65F2EDF437732 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21E17F6EC0C565EA5CFC5A781A72D9FF /* Pods-cameraCountDown_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cameraCountDown_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -43,6 +43,7 @@
 		74E31C9F58758E06BD9F38129BC9FEEC /* Pods-cameraCountDown_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-cameraCountDown_Tests.modulemap"; sourceTree = "<group>"; };
 		76AAFFE51DE215A6006AD607 /* cameraCountDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cameraCountDown.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94D15AADAACFCFAA58520B25 /* Pods-cameraCountDown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cameraCountDown.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cameraCountDown/Pods-cameraCountDown.debug.xcconfig"; sourceTree = "<group>"; };
 		AA0E48CA2C82B47CBDC740BFB6E5E527 /* cameraCountDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = cameraCountDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFF9059A5A52533221B180185248BEBB /* cameraCountDown.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = cameraCountDown.xcconfig; sourceTree = "<group>"; };
 		B15B7710A59B65312FEAAC06 /* Pods_Pods_cameraCountDown_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pods_cameraCountDown_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,7 +61,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DCC955EC46B1CA8B4D83C7E935877EC /* Foundation.framework in Frameworks */,
-				00C847E6482874DDBDA92BE3 /* Pods_Pods_cameraCountDown_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,6 +182,8 @@
 		E018F944D3EDEA5B7368B409 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				94D15AADAACFCFAA58520B25 /* Pods-cameraCountDown.debug.xcconfig */,
+				1943E0DD6C57CF7CFC385355 /* Pods-cameraCountDown.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -379,7 +381,7 @@
 /* Begin XCBuildConfiguration section */
 		02740B9E8E7316E5EF753782BA705A19 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AFF9059A5A52533221B180185248BEBB /* cameraCountDown.xcconfig */;
+			baseConfigurationReference = 1943E0DD6C57CF7CFC385355 /* Pods-cameraCountDown.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -409,7 +411,6 @@
 		};
 		1966D473A41936FA4DAA215A22BA0F46 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 21E17F6EC0C565EA5CFC5A781A72D9FF /* Pods-cameraCountDown_Tests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -479,7 +480,7 @@
 		};
 		5566C1A70E9D7A7326003040C0EDE822 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AFF9059A5A52533221B180185248BEBB /* cameraCountDown.xcconfig */;
+			baseConfigurationReference = 94D15AADAACFCFAA58520B25 /* Pods-cameraCountDown.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -551,7 +552,6 @@
 		};
 		8FE300A709C1ED07C61266EAE4DAA496 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E04E41DC31E62DB0864C12B88750712 /* Pods-cameraCountDown_Tests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;

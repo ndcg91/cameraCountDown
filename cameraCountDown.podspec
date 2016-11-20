@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'cameraCountDown'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of cameraCountDown.'
+  s.summary          = 'Simple count down view for camera delayed shutter'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,8 +18,8 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+This library is ussed to get a simple counter on the screen, when this counter get 0 an action will be taken.
+                    DESC
 
   s.homepage         = 'https://github.com/ndcg91/cameraCountDown'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -40,6 +40,5 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   s.dependency 'SnapKit', '0.22.0'
-  s.dependency 'Spring', '1.0.3'
-
+  s.dependency 'ActionKit'
 end
